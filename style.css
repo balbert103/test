@@ -1,0 +1,52 @@
+#header {
+    display: flex;
+    justify-content: space-between; /* Align items horizontally and distribute space evenly */
+  }
+
+#icon {
+    margin-left: 2vw; /* Add a 2vw margin to the left */
+  }
+
+#nav-bar a{
+    float: left; /* Float the links to the left */  
+    display: block; /* Display links as blocks */  
+    color: rgb(30, 72, 135); /* text color */  
+    text-align: center;
+    padding: 14px 16px; /* Padding around the links */  
+  text-decoration: none;
+  flex-grow: 1;
+}
+
+#actionable {
+    display: flex; /* Arrange buttons horizontally */
+    align-items: center; /* Vertically center the buttons */
+    gap: 2vw; /* Add spacing between buttons */
+  }
+
+#bookademo{
+  border-radius: 6px;
+  border: #73AD21;
+  background: #73AD21;
+  padding: 20px;
+  color: white;
+}
+#get-started{
+  border-radius: 6px;
+  border: 2px solid #42a6c5;
+  padding: 20px;
+  background-color: transparent;
+  color: #42a6c5;
+}
+
+#main-body {
+    margin: 5vw;
+} 
+
+#circle {
+    width: 8vw;
+    height: 8vw;
+    border-radius: 50%;
+    background-color:white;
+    box-shadow:  0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
